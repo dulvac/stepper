@@ -1,0 +1,15 @@
+100:
+  stepName: net.dulvac.steps.DEBUG
+  className: net.dulvac.steps.DebugStep
+  config:
+    message: default message!
+200:
+  stepName: net.dulvac.steps.MY_NAME
+  className: net.dulvac.steps.DebugStep
+net.dulvac.steps.DEBUG:
+  className: net.dulvac.steps.DebugStep2
+  config:
+    message: hijacked
+
+
+
